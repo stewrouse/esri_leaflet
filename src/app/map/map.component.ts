@@ -19,7 +19,8 @@ export class MapComponent implements AfterViewInit {
     });
 
     //vt.vector.vectorBasemapLayer("ArcGIS:Streets",{apikey:"AAPK993614093b73473881a493b891ba8e85uHePB2uShhEdc-Dwq919f7rEtfqvSIYXl4242TpHDzhEoo4UxRIPGTomz4Ldbjqd"}).addTo(this.map);
-    L.esri.Vector.vectorBasemapLayer
+    const options =
+    L.esri.Vector.VectorBasemapLayer('ArcGIS:Streets', {apikey:"AAPK993614093b73473881a493b891ba8e85uHePB2uShhEdc-Dwq919f7rEtfqvSIYXl4242TpHDzhEoo4UxRIPGTomz4Ldbjqd"}).addTo(this.map)
   }
 
 
