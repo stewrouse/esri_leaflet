@@ -1,0 +1,8 @@
+@import 'https://unpkg.com/leaflet/dist/leaflet.css';
+
+#mapViewNode {
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+  }
